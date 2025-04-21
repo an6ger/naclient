@@ -1321,7 +1321,7 @@ do
                 }, window.VisualPreview.Drawings);healthbar = preview_heatlhbar
                 --
                 local preview_title = utility:Create("TextLabel", {Vector2.new(preview_box.Size.X / 2, -20), preview_box}, {
-                    Text = "Username",
+                    Text = "Shiozake",
                     Size = theme.textsize,
                     Font = theme.font,
                     Color = theme.textcolor,
@@ -1341,7 +1341,7 @@ do
                 }, window.VisualPreview.Drawings)
                 --
                 local preview_tool = utility:Create("TextLabel", {Vector2.new(preview_box.Size.X / 2, preview_box.Size.Y + 20), preview_box}, {
-                    Text = "Weapon",
+                    Text = "DWF 416",
                     Size = theme.textsize,
                     Font = theme.font,
                     Color = theme.textcolor,
@@ -1494,12 +1494,12 @@ do
                     Size = utility:Size(1, -2, 1, -2, preview_boxoutline),
                     Position = utility:Position(0, 1, 0, 1, preview_boxoutline),
                     Color = Color3.fromRGB(255, 255, 255),
-                    Filled = true,
+                    Filled = false,
                     Transparency = 0.9
                 }, window.VisualPreview.Drawings)
                 --
                 local preview_flags = utility:Create("TextLabel", {Vector2.new(preview_box.Size.X -56, 5), preview_box}, {
-                    Text = "Flags ->", --Display\nMoving\nJumping\nDesynced"
+                    Text = " ", --Display\nMoving\nJumping\nDesynced"
                     Size = theme.textsize,
                     Font = theme.font,
                     Color = Color3.fromRGB(255, 255, 255),
@@ -1509,7 +1509,7 @@ do
                 }, window.VisualPreview.Drawings)
                 --
                 local preview_healthbarvalue = utility:Create("TextLabel", {Vector2.new(0, 5), preview_heatlhbar}, {
-                    Text = "<- Number", --Display\nMoving\nJumping\nDesynced"
+                    Text = " ", --Display\nMoving\nJumping\nDesynced"
                     Size = theme.textsize,
                     Font = theme.font,
                     Color = Color3.fromRGB(0, 255, 0),
